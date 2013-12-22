@@ -22,6 +22,12 @@ storageWrap.setItem('test', {
 storageWrap.getItem('test');
 ```
 
+It uses `localStorage` by default, but it can easily be changed with `setAdaptor`
+
+```js
+storageWrap.setAdaptor(sessionStorage);
+```
+
 Use it as a global or as an AMD module.
 
 ## Tests
