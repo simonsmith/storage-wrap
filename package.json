@@ -1,0 +1,16 @@
+{
+  "name": "storage-wrap",
+  "version": "1.0.0",
+  "description": "Simple storage wrapper for the browser",
+  "main": "src/storage-wrap.js",
+  "directories": {
+    "test": "tests"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-mocha-phantomjs": "~0.3.2",
+    "load-grunt-tasks": "~0.2.1"
+  }
+}

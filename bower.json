@@ -1,0 +1,16 @@
+{
+  "name": "storage-wrap",
+  "version": "1.0.0",
+  "authors": [
+    "Simon Smith <simon@interlopers.net>"
+  ],
+  "main": ["src/storage-wrap.js"],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

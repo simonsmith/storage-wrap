@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../bower_components/mocha/mocha.css">
+        <script src="../bower_components/mocha/mocha.js"></script>
+        <script src="../bower_components/chai/chai.js"></script>
+        <script>
+            mocha.ui('bdd');
+            mocha.reporter('html');
+            expect = chai.expect;
+        </script>
+    </head>
+    <body>
+        <div id="mocha"></div>
+        <script src="../src/storage-wrap.js"></script>
+        <script src="storage-wrap.spec.js"></script>
+        <script>
+            if (window.mochaPhantomJS) {
+                mochaPhantomJS.run();
+            }
+            else {
+                mocha.run();
+            }
+        </script>
+    </body>
+</html>
