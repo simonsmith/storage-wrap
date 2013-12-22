@@ -1,6 +1,6 @@
 {
   "name": "storage-wrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     "Simon Smith <simon@interlopers.net>"
   ],
@@ -9,6 +9,9 @@
   "ignore": [
     "**/.*",
     "node_modules",
+    "bower.json",
+    "Gruntfile.js",
+    "package.json",
     "bower_components",
     "test",
     "tests"

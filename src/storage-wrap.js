@@ -2,6 +2,7 @@
  * Simple wrapper for local/sessionStorage
  * Allows easy get/set of objects
  * https://github.com/simonsmith/storage-wrap/
+ * v1.0.1
  * @blinkdesign
  */
 
