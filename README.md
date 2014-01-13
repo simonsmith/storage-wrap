@@ -4,9 +4,13 @@ Nothing fancy, just a simple wrapper for local/sessionStorage that removes the n
 
 ## Installation
 
-Bower ftw
+Bower
 
 	bower install storage-wrap --save
+
+NPM
+
+	npm install storage-wrap --save
 
 ## Usage
 

@@ -2,13 +2,15 @@
  * Simple wrapper for local/sessionStorage
  * Allows easy get/set of objects
  * https://github.com/simonsmith/storage-wrap/
- * v1.0.1
+ * v1.0.2
  * @blinkdesign
  */
 
 !function(name, context, factory) {
     if (typeof define === 'function' && define.amd) {
         define(factory);
+    } else if (typeof module !== 'undefined' && module.exports) {
+        module.exports = factory();
     } else {
         context[name] = factory();
     }

@@ -1,6 +1,6 @@
 {
   "name": "storage-wrap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple storage wrapper for the browser",
   "main": "src/storage-wrap.js",
   "directories": {
